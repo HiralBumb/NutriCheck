@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>*NuTri CheCk*</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <h1 class="header" style="background-color:rgb(0, 0, 0);color:cyan;">	
+            <i>*NuTri CheCk* </i>  
+        </h1>
+        <br>
+        <h2 id="user_name" class="color_white"></h2>
+
+<p>Choose what you ate today:</p>
+<div>
+<form>
+  <input type="radio" id="prf" name="fav_food" value="Protein Rich Food">
+  <label for="prf">Protein Rich Food</label>
+<br>
+  <input type="radio" id="fvs" name="fav_food" value="Fruits/Vegetable/Salad">
+  <label for="fvs">Fruits/Vegetable/Salad</label>
+<br>
+  <input type="radio" id="jf" name="fav_food" value="Junk Food">
+  <label for="jf">Junk Food</label>
+<br>
+  <input type="radio" id="dsc" name="fav_food" value="Dessert/Sweets/Choclates">
+  <label for="dsc">Dessert/Sweets/Choclates</label>
+<br>
+</form> 
+</div>
+<button id="next_button" class="btn btn-primary" onclick="addMessage()">Next</button>
+</center>
+
+<script src="main_page.js"></script>
+</body>
+</html>
